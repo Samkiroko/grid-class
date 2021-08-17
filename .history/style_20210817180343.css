@@ -140,11 +140,11 @@ img {
     bottom: -70px;
     right: 0;
     left: 0;
-    background: #fff;
+    background: #5cb85c;
     transform: skewY(-3deg);
-    /* -webkit-transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
     -moz-transform: scaleY(-3deg);
-    -ms-transform: scaleY(-3deg); */
+    -ms-transform: scaleY(-3deg);
 }
 
 
