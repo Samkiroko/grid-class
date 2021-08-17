@@ -183,10 +183,5 @@ img {
     grid-template-rows: repeat(2, 1fr);
 }
 
-.cli .grid>*:first-child {
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 2;
-}
-
 
 /* cli end */
