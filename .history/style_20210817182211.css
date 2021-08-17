@@ -149,28 +149,3 @@ img {
 
 
 /* Showcase end*/
-
-
-/* Stats */
-
-.stats {
-    padding-top: 100px;
-    animation: slideInFromBottom 1s ease-in;
-}
-
-.stats-heading {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.stats .grid h3 {
-    font-size: 35px;
-}
-
-.stats .grid p {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-
-/* Stats  end*/
