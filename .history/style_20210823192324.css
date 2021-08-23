@@ -301,18 +301,7 @@ img {
     font-size: 17px;
     padding-bottom: 5px;
     margin-bottom: 5px;
-    border-bottom: 1px #ccc solid;
-}
-
-.docs-main a:hover {
-    font-weight: bold;
-}
-
-code,
-pre {
-    background: #333;
-    color: #fff;
-    padding: 10px;
+    border-bottom: ipx #ccc solid;
 }
 
 
