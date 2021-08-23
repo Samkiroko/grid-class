@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 :root {
     --primary-color: #047aed;
     --secondary-color: #1c3fa8;
@@ -9,13 +8,13 @@
 }
 
 * {
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: sans-serif;
     color: #333;
     line-height: 1.6;
 }
@@ -44,20 +43,8 @@ img {
     width: 100%;
 }
 
-code,
-pre {
-    background: #333;
-    color: #fff;
-    padding: 10px;
-}
 
-.hidden {
-    visibility: hidden;
-    height: 0;
-}
-
-
-/* Navbar */
+/* Navbar start */
 
 .navbar {
     background-color: var(--primary-color);
@@ -84,7 +71,10 @@ pre {
 }
 
 
-/* Showcase */
+/* Navbar end */
+
+
+/* Showcase start */
 
 .showcase {
     height: 400px;
@@ -104,12 +94,15 @@ pre {
 .showcase .grid {
     overflow: visible;
     grid-template-columns: 55% auto;
-    gap: 30px;
+    gap: 20px;
 }
 
-.showcase-text {
+.showcase-test {
     animation: slideInFromLeft 1s ease-in;
 }
+
+
+/* form */
 
 .showcase-form {
     position: relative;
@@ -150,9 +143,12 @@ pre {
     background: #fff;
     transform: skewY(-3deg);
     -webkit-transform: skewY(-3deg);
-    -moz-transform: skewY(-3deg);
-    -ms-transform: skewY(-3deg);
+    -moz-transform: scaleY(-3deg);
+    -ms-transform: scaleY(-3deg);
 }
+
+
+/* Showcase end*/
 
 
 /* Stats */
@@ -177,7 +173,10 @@ pre {
 }
 
 
-/* Cli */
+/* Stats  end*/
+
+
+/* cli */
 
 .cli .grid {
     grid-template-columns: repeat(3, 1fr);
@@ -190,11 +189,17 @@ pre {
 }
 
 
+/* cli end */
+
+
 /* Cloud */
 
 .cloud .grid {
     grid-template-columns: 4fr 3fr;
 }
+
+
+/* Cloud end */
 
 
 /* Languages */
@@ -219,6 +224,35 @@ pre {
 }
 
 
+/* Languages end*/
+
+
+/* footer */
+
+.footer .social a {
+    margin: 0 10px;
+}
+
+.fa-github:hover {
+    color: #000000;
+}
+
+.fa-facebook:hover {
+    color: #1773ea;
+}
+
+.fa-instagram:hover {
+    color: #b32e87;
+}
+
+.fa-twitter:hover {
+    color: #1c9cea;
+}
+
+
+/* footer end */
+
+
 /* Features */
 
 .features-head img,
@@ -232,12 +266,12 @@ pre {
     justify-self: flex-end;
 }
 
-.features-main .card>i {
-    margin-right: 20px;
-}
-
 .features-main .grid {
     padding: 30px;
+}
+
+.features-main .card>i {
+    margin-right: 20px;
 }
 
 .features-main .grid>*:first-child {
@@ -249,7 +283,10 @@ pre {
 }
 
 
-/* Docs */
+/* Features end */
+
+
+/* docs */
 
 .docs-main h3 {
     margin: 20px 0;
@@ -271,28 +308,15 @@ pre {
     font-weight: bold;
 }
 
-
-/* Footer */
-
-.footer .social a {
-    margin: 0 10px;
+code,
+pre {
+    background: #333;
+    color: #fff;
+    padding: 10px;
 }
 
-.fa-github:hover {
-    color: #000000;
-}
 
-.fa-facebook:hover {
-    color: #1773ea;
-}
-
-.fa-instagram:hover {
-    color: #b32e87;
-}
-
-.fa-twitter:hover {
-    color: #1c9cea;
-}
+/* docs end*/
 
 
 /* Animations */
